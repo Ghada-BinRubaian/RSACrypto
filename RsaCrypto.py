@@ -1,29 +1,23 @@
 import argparse
 import RsaCipher 
 
-reset='\033[0m'
-purple = '\033[35m'
-cyan="\033[36m"
-
-print(purple+"""
-'||'''|, .|'''|       /.\      
- ||   || ||          // \\     
- ||...|' `|'''|,    //...\\    
- || \\    .   ||   //     \\   
-.||  \\.  |...|' .//       \\. 
 
 
-.|'''', '||'''|, '\\  //` '||'''|, |''||''| .|''''|, 
-||       ||   ||   \\//    ||   ||    ||    ||    || 
-||       ||...|'    ||     ||...|'    ||    ||    || 
-||       || \\      ||     ||         ||    ||    || 
-`|....' .||  \\.   .||.   .||        .||.   `|....|' 
-
-                                                                           """""+reset)
-print(cyan+"--Credits:")
+print("""
+ _____   _____         _____                  _        
+|  __ \ / ____|  /\   / ____|                | |       
+| |__) | (___   /  \ | |     _ __ _   _ _ __ | |_ ___  
+|  _  / \___ \ / /\ \| |    | '__| | | | '_ \| __/ _ \ 
+| | \ \ ____) / ____ \ |____| |  | |_| | |_) | || (_) |
+|_|  \_\_____/_/    \_\_____|_|   \__, | .__/ \__\___/ 
+                                   __/ | |
+                                  |___/|_|
+      
+      """)
+print("--Credits:")
 print("[*]Ghada Bin Rubaian\n[*]Muneera Alsulaiman\n[*]Asma Al Yami\n[*]Lujain Alqahtani\n[*]Dalal Alkhaldi\n")
 print("->Intructor: Dr.Reem Alassaf")
-print("->course:programming for CyberSecurity \n"+reset)
+print("->course:programming for CyberSecurity \n")
 parser = argparse.ArgumentParser(description="Encryption and Decryption messages")
 parser.add_argument('-pt','--PlainText', help='Message before encryption',metavar='',type=str)#private key . pub
 parser.add_argument('-ct','--cipherText', help='Message after encryption',metavar='',type=str)
