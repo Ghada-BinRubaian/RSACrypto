@@ -12,7 +12,6 @@ print("""
 |_|  \_\_____/_/    \_\_____|_|   \__, | .__/ \__\___/ 
                                    __/ | |
                                   |___/|_|
-      
       """)
 print("--Credits:")
 print("[*]Ghada Bin Rubaian\n[*]Muneera Alsulaiman\n[*]Asma Al Yami\n[*]Lujain Alqahtani\n[*]Dalal Alkhaldi\n")
